@@ -1,0 +1,88 @@
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top:10vh;
+    padding-bottom: 5vh;
+    color: #fff;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.clock-body {
+
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.titles {
+    padding-bottom: 15px;
+}
+
+.break {
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 50%;
+}
+
+#break-session, #work-session, #timer-minutes, #timer-seconds {
+    font-size: 2rem ;
+}
+
+.work {
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 50%;
+}
+
+#title {
+    text-align: center;
+}
+
+.session {
+
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/* Styles for the buttons */
+.buttons {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #555;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: #777;
+}
+
+.buttons:active {
+  background-color: #333;
+}
+
+/* Styles for the container and background */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #333;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+}
