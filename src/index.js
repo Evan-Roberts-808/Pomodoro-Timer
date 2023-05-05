@@ -17,7 +17,7 @@ const play = document.getElementById("play");
 const pause = document.getElementById("pause");
 const reset = document.getElementById("reset");
 const title = document.getElementById("title");
-const audio = new Audio('https://github.com/Evan-Roberts-808/Pomodoro-Timer/blob/main/src/alarm.mp3');
+const audio = new Audio('./alarm.mp3');
 
 
 // Subtracts Minutes From Break
